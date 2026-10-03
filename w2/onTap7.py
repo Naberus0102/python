@@ -1,2 +1,4 @@
 soDien = int (input())
-tien = soDien*1678
+
+soTien = min(soDien,50)*1678 + (abs(50-max(soDien,50)))*2014
+print(soTien)
